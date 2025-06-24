@@ -1,0 +1,4 @@
+This is a simple project meant to record my achievements in learning computer vision. I discovered my interest in this field at the end of my first year in college. 
+Back in high school, I was someone with wide-ranging interests, and I devoted much of my time to chemistry. At that time, I was naive enough to believe that I could dedicate my entire life to organic chemistry. In the summer of 2022, however, I encountered my first major failure: I only received the third prize in my province during the 38th Chinese Chemistry Olympiad (CChO).
+Reluctantly and with a strong unwillingness to give up, I left the chemistry competition class. Despite that, I continued to spend a lot of time studying advanced chemistry topics—many of which were irrelevant to the college entrance exam (Gaokao) and did little to improve my actual grades.
+As expected, I failed again, without any remarkable results to show for all the effort.
