@@ -30,7 +30,8 @@ def plot_histogram(img, title="Histogram", show_stats=False):
                 print(f"{i:3}\t{int(hist[i])}\t{prob_density[i]:.4f}\t{cdf[i]:.4f}")
 
 # 读取图像（灰度）
-dark_img = cv2.imread(r'C:\Users\20342\Desktop\cv\clahe\original_dark_image.png', cv2.IMREAD_GRAYSCALE)
+dark_img = cv2.imread(r'C:\Users\20342\Desktop\cv\clahe\code\original_dark_image.png', cv2.IMREAD_GRAYSCALE)
+
 
 # 应用直方图均衡化
 he_img = cv2.equalizeHist(dark_img)

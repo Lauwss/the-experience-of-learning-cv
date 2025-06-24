@@ -42,7 +42,8 @@ def redistribute_histogram(img, threshold=0.005, show_stats=True):
 
 # ===================== 主流程 =====================
 
-img = cv2.imread(r'C:\Users\20342\Desktop\cv\clahe\original_dark_image.png', cv2.IMREAD_GRAYSCALE)
+img = cv2.imread(r'C:\Users\20342\Desktop\cv\clahe\code\original_dark_image.png', cv2.IMREAD_GRAYSCALE)
+
 
 # 直方图平滑 + 自定义均衡化
 adjusted_img, new_prob, new_cdf = redistribute_histogram(img)

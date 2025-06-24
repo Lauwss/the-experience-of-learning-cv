@@ -2,7 +2,7 @@ import numpy as np
 import cv2
 import matplotlib.pyplot as plt
 
-def redistribute_histogram_absolute(img, clip_limit=2000, show_stats=True):
+def redistribute_histogram_absolute(img, clip_limit=2500, show_stats=True):
     h, w = img.shape
     n_pixels = h * w
 
@@ -33,7 +33,7 @@ def redistribute_histogram_absolute(img, clip_limit=2000, show_stats=True):
 
 # ===================== 主流程 =====================
 
-img = cv2.imread(r'C:\Users\20342\Desktop\cv\clahe\original_dark_image.png', cv2.IMREAD_GRAYSCALE)
+img = cv2.imread(r'C:\Users\20342\Desktop\cv\clahe\code\original_dark_image.png', cv2.IMREAD_GRAYSCALE)
 
 # 使用绝对频数阈值进行直方图裁剪
 adjusted_img, new_prob, new_cdf = redistribute_histogram_absolute(img, clip_limit=2000)
